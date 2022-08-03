@@ -1,3 +1,6 @@
-Название | Цель | Задачи | Инструменты
-:---|:---|:---|:---
-Прогнозирование оттока клиентов оператора связи | Найти клиентов потенциально готовых перестать пользоваться услугами оператора и удержать их | На основе данных из компании определить клиента, который может уйти | Python, Pandas, NumPy, Matplotlib, Seaborn, CatBoostClassifier, LGBMClassifier, RandomForestClassifier, DummyClassifier, OrdinalEncoder, GridSearchCV, sklearn.metrics
+Название|Задачи |Инструменты
+:---|:---|:---
+Прогнозирование оттока клиентов оператора связи | На основе данных из компании определить клиента, который может уйти | Python, Pandas, NumPy, Matplotlib, Seaborn, CatBoostClassifier, LGBMClassifier, RandomForestClassifier, DummyClassifier, OrdinalEncoder, GridSearchCV, hyperopt, sklearn.metrics
+Обработка фотографий покупателя             | Определение возраста по фото для предложения товаров по возрастным группам и контроля кассиров при продаже алкоголя | Python, Pandas, NumPy, Matplotlib, Seaborn, ResNet50, ImageDataGenerator, optimizer Adam, tensorflow.keras
+Прогнозирование количества заказов такси на следующий час | Разработка системы предсказания объема заказа для привлечения водителей в период пиковой нагрузки | Python, Pandas, NumPy, Plotly, Matplotlib, Seaborn, seasonal_decompose, GridSearchCV, TimeSeriesSplit, cross_val_score, cross_validate, LGBM, CatBoost, RandomForest, Linear
+Построение модели определения стоимости автомобиля | Разработка системы рекомендации стоимости автомобиля на основе его описания | Python, Pandas, NumPy, Plotly, Matplotlib, Seaborn, scipy.stats, OrdinalEncoder, OneHotEncoder, GridSearchCV, make_scorer, LGBMRegressor, CatBoostRegressor, RandomForestRegressor, LinearRegression
